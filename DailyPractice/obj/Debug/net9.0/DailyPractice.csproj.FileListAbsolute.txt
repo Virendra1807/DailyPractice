@@ -1,0 +1,15 @@
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\bin\Debug\net9.0\DailyPractice.exe
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\bin\Debug\net9.0\DailyPractice.deps.json
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\bin\Debug\net9.0\DailyPractice.runtimeconfig.json
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\bin\Debug\net9.0\DailyPractice.dll
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\bin\Debug\net9.0\DailyPractice.pdb
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\obj\Debug\net9.0\DailyPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\obj\Debug\net9.0\DailyPractice.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\obj\Debug\net9.0\DailyPractice.AssemblyInfo.cs
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\obj\Debug\net9.0\DailyPractice.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\obj\Debug\net9.0\DailyPractice.sourcelink.json
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\obj\Debug\net9.0\DailyPractice.dll
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\obj\Debug\net9.0\refint\DailyPractice.dll
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\obj\Debug\net9.0\DailyPractice.pdb
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\obj\Debug\net9.0\DailyPractice.genruntimeconfig.cache
+C:\Users\Dell\source\repos\DailyPractice\DailyPractice\obj\Debug\net9.0\ref\DailyPractice.dll

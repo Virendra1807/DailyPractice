@@ -21,7 +21,7 @@ namespace DailyPractice
 
     public class SubClass : MainClass
     {
-        public override void ShowMessage() //Sealed means the child of SubClass cant Override this method
+        public sealed override void ShowMessage() //Sealed means the child of SubClass cant Override this method
         {
             Console.WriteLine("Child message");
         }

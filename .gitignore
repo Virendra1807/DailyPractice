@@ -1,0 +1,23 @@
+
+# Ignore a specific file
+secret.txt
+DailyPractice.sln
+
+# Ignore all .log files
+*.log
+*.vs
+*.vs/
+
+
+
+# Ignore the node_modules directory
+node_modules/
+
+# Ignore all files in the build folder
+build/
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+

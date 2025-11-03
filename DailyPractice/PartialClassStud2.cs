@@ -12,7 +12,7 @@ namespace DailyPractice
         public string Name { get; set; }
 
         // Declaration only
-        public partial void DisplayDetails();
+        public partial int DisplayDetails();
 
         public void Show()
         {

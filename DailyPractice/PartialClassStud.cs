@@ -8,9 +8,10 @@ namespace DailyPractice
 {
     internal partial class PartialClassStud
     {
-        public partial void DisplayDetails()
+        public partial int DisplayDetails()
         {
             Console.WriteLine($"Roll No: {RollNo}, Name: {Name}");
+            return 0;
         }
 
     }

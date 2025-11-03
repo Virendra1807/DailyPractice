@@ -7,7 +7,13 @@ DailyPractice.sln
 *.log
 *.vs
 *.vs/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.AssemblyInfo.cs
 
+*.json
 
 
 # Ignore the node_modules directory

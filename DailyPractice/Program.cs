@@ -86,19 +86,23 @@ using System.Collections.Generic;
 //classTwo.Display();
 
 
-ExtendsAbstractClass obj = new ExtendsAbstractClass();
-Console.WriteLine(obj.Name);
-obj.MandatoryMethod();
-obj.ConcreteMethod();
+//ExtendsAbstractClass obj = new ExtendsAbstractClass();
+//Console.WriteLine(obj.Name);
+//obj.MandatoryMethod();
+//obj.ConcreteMethod();
 
-Shape circle = new Circle() { Radius=5, Color="red" };
-Shape rect = new Rectangle() { Width = 10, Height = 6, Color = "Blue" };
+//Shape circle = new Circle() { Radius=5, Color="red" };
+//Shape rect = new Rectangle() { Width = 10, Height = 6, Color = "Blue" };
 
-circle.Draw();
-circle.ShowColor();
+//circle.Draw();
+//circle.ShowColor();
 
-rect.Draw();
-rect.ShowColor();
+//rect.Draw();
+//rect.ShowColor();
+
+PartialClassStud s = new PartialClassStud() { RollNo = 101, Name = "Viren" };
+s.Show();
+s.DisplayDetails();
 
 
 

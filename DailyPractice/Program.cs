@@ -100,11 +100,13 @@ using System.Collections.Generic;
 //rect.Draw();
 //rect.ShowColor();
 
-PartialClassStud s = new PartialClassStud() { RollNo = 101, Name = "Viren" };
-s.Show();
-s.DisplayDetails();
+//PartialClassStud s = new PartialClassStud() { RollNo = 101, Name = "Viren" };
+//s.Show();
+//s.DisplayDetails();
 
 
-
+StaticClasses.DisplayMessage(); // Calling static class method without creating instance
+//StaticClasses obj = new StaticClasses(); // Error: Cannot create instance of static class
+//obj.DisplayMessage(); // Error: Cannot call static method using instance
 
 

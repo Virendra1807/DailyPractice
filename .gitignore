@@ -4,16 +4,17 @@ secret.txt
 DailyPractice.sln
 
 # Ignore all .log files
+bin/
+obj/
 *.log
-*.vs
-*.vs/
 *.dll
 *.exe
 *.pdb
 *.cache
 *.AssemblyInfo.cs
-
 *.json
+*.vs/
+
 
 
 # Ignore the node_modules directory

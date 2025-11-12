@@ -110,3 +110,12 @@ StaticClasses.DisplayMessage(); // Calling static class method without creating 
 //obj.DisplayMessage(); // Error: Cannot call static method using instance
 
 
+Func<int, int, int> add = delegate (int a, int b)
+{
+    return a + b;
+};
+
+Console.WriteLine(add(5, 7));  // Output: 12
+
+
+

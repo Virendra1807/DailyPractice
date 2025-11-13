@@ -117,8 +117,11 @@ StaticClasses.DisplayMessage(); // Calling static class method without creating 
 
 //Console.WriteLine(add(5, 7));  // Output: 12
 
-Calculator obj = new Calculator();
-obj.Add(10).Multiply(5).Add(20).Show(); // Chained method calls
+//Calculator obj = new Calculator();
+//obj.Add(10).Multiply(5).Add(20).Show(); // Chained method calls
+Testing obj = new Testing(20);
+
+Testing.Show();
 
 
 

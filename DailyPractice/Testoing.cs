@@ -6,18 +6,35 @@ using System.Threading.Tasks;
 
 namespace DailyPractice
 {
-    class Testing
+    class ParentClass
     {
         public static int age = 30;
-
-        public Testing(int a)
+        public ParentClass(ParentClass obj)
         {
-            age = a;
+            Console.WriteLine("Parent", obj);
         }
 
-        public static void Show()
+        //public static void Show()
+        //{
+        //    Console.WriteLine("Age is: " + age);
+        //}
+    }
+
+    class ChildTesting : ParentClass
+    {
+        public ChildTesting(ChildTesting obj): base(obj)
         {
-            Console.WriteLine("Age is: " + age);
+          
         }
     }
+    class ChildTesting2 : ParentClass
+    {
+        public ChildTesting2(ChildTesting2 obj): base(obj)
+        {
+          
+        }
+    }
+
+
+
 }

@@ -119,9 +119,10 @@ StaticClasses.DisplayMessage(); // Calling static class method without creating 
 
 //Calculator obj = new Calculator();
 //obj.Add(10).Multiply(5).Add(20).Show(); // Chained method calls
-Testing obj = new Testing(20);
+new ParentClass(new ParentClass(null));
+new ChildTesting2(new ChildTesting2(null));
+new ChildTesting(new ChildTesting(null));
 
-Testing.Show();
 
 
 

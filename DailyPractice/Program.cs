@@ -105,7 +105,7 @@ using System.Collections.Generic;
 //s.DisplayDetails();
 
 
-StaticClasses.DisplayMessage(); // Calling static class method without creating instance
+//StaticClasses.DisplayMessage(); // Calling static class method without creating instance
 //StaticClasses obj = new StaticClasses(); // Error: Cannot create instance of static class
 //obj.DisplayMessage(); // Error: Cannot call static method using instance
 
@@ -119,9 +119,17 @@ StaticClasses.DisplayMessage(); // Calling static class method without creating 
 
 //Calculator obj = new Calculator();
 //obj.Add(10).Multiply(5).Add(20).Show(); // Chained method calls
-new ParentClass(new ParentClass(null));
-new ChildTesting2(new ChildTesting2(null));
-new ChildTesting(new ChildTesting(null));
+//new ParentClass(new ParentClass(null));
+//new ChildTesting2(new ChildTesting2(null));
+//new ChildTesting(new ChildTesting(null));
+
+Generics obj = new Generics();
+Console.WriteLine(obj.PrintAnyDataType(100));
+Console.WriteLine(obj.PrintAnyDataType("Hello Generics"));
+Console.WriteLine(obj.PrintAnyDataType<double>(99.99));
+
+
+
 
 
 

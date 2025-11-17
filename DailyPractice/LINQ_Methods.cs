@@ -16,7 +16,15 @@ namespace DailyPractice
         {
             var evenNumbers = numbers.Where(n => n % 2 == 0).ToList<int>();
             Console.WriteLine("Even Numbers:");
+
+
             foreach (var num in evenNumbers)
+            {
+                Console.WriteLine(num);
+            }
+
+            var result = numbers.Where(n => n % 2 == 0).Select(n => n);
+            foreach (var num in result)
             {
                 Console.WriteLine(num);
             }

@@ -128,7 +128,9 @@ using System.Collections.Generic;
 //Console.WriteLine(obj.PrintAnyDataType("Hello Generics"));
 //Console.WriteLine(obj.PrintAnyDataType<double>(99.99));
 
-LINQ_Methods.LinqExample();
+//LINQ_Methods.LinqExample();
+
+SortArray.SortArrayAsc(new int[] { 5, 3, 8, 1, 2 });
 
 
 

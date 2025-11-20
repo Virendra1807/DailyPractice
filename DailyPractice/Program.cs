@@ -130,7 +130,9 @@ using System.Collections.Generic;
 
 //LINQ_Methods.LinqExample();
 
-SortArray.SortArrayAsc(new int[] { 5, 3, 8, 1, 2 });
+//SortArray.SortArrayAsc(new int[] { 5, 3, 8, 1, 2 });
+
+EnumsNamedConstants.ShowEnum();
 
 
 

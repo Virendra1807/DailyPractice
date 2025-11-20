@@ -17,7 +17,7 @@ namespace DailyPractice
             {
                 for (int j=i+1; j < arr.Length; j++)
                 {
-                    if (arr[i] > arr[j])
+                    if (arr[i] < arr[j])
                     {
                         int temp = arr[i]; 
                         arr[i] = arr[j];
@@ -26,7 +26,8 @@ namespace DailyPractice
                 }
             }
 
-            arr.ToList<int>().ForEach(n => Console.WriteLine(n));
+            //arr.ToList<int>().ForEach(n => Console.WriteLine(n));
+            Console.WriteLine(string.Join(',', arr));
 
         }
     }

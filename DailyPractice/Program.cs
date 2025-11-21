@@ -135,7 +135,13 @@ using System.Collections.Generic;
 //EnumsNamedConstants.ShowEnum();
 
 
-// Lightweight value type object
-StructNotAClass point = new StructNotAClass(10, 20);
-point.DisplayCoordinates();
-point.X = 30; // If no constructor is defined, then fields can be modified directly
+//// Lightweight value type object
+//StructNotAClass point = new StructNotAClass(10, 20);
+//point.DisplayCoordinates();
+//point.X = 30; // If no constructor is defined, then fields can be modified directly
+
+IndexersInCSharp obj = new IndexersInCSharp();
+obj[0]= 10; // Using indexer to set value
+obj[4]= 20;
+Console.WriteLine("Value at index 4: " + (string.Join(',', obj[4]))); // Using indexer to get value
+

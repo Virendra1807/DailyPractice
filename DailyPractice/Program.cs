@@ -132,9 +132,10 @@ using System.Collections.Generic;
 
 //SortArray.SortArrayAsc(new int[] { 5, 3, 8, 1, 2 });
 
-EnumsNamedConstants.ShowEnum();
+//EnumsNamedConstants.ShowEnum();
 
 
-
-
-
+// Lightweight value type object
+StructNotAClass point = new StructNotAClass(10, 20);
+point.DisplayCoordinates();
+point.X = 30; // If no constructor is defined, then fields can be modified directly

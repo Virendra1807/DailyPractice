@@ -143,5 +143,6 @@ using System.Collections.Generic;
 IndexersInCSharp obj = new IndexersInCSharp();
 obj[0]= 10; // Using indexer to set value
 obj[4]= 20;
-Console.WriteLine("Value at index 4: " + (string.Join(',', obj[4]))); // Using indexer to get value
+Console.WriteLine("Value at index 4: " + (string.Join(',', obj[4])));// Using indexer to get value
+obj.DisplayArray();
 

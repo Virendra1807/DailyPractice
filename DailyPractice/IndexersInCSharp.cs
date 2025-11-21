@@ -16,5 +16,10 @@ namespace DailyPractice
             set { arr[index] = value; }
         }
 
+        public void DisplayArray()
+        {
+            Console.WriteLine("Array elements: " + string.Join(", ", arr));
+        }
+
     }
 }

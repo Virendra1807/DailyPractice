@@ -9,6 +9,8 @@ namespace DailyPractice
     class ParentClass
     {
         public static int age = 30;
+        short? isActive = null;
+
         public ParentClass(ParentClass obj)
         {
             Console.WriteLine("Parent", obj);

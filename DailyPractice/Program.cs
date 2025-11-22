@@ -140,9 +140,13 @@ using System.Collections.Generic;
 //point.DisplayCoordinates();
 //point.X = 30; // If no constructor is defined, then fields can be modified directly
 
-IndexersInCSharp obj = new IndexersInCSharp();
-obj[0]= 10; // Using indexer to set value
-obj[4]= 20;
-Console.WriteLine("Value at index 4: " + (string.Join(',', obj[4])));// Using indexer to get value
-obj.DisplayArray();
+//IndexersInCSharp obj = new IndexersInCSharp();
+//obj[0]= 10; // Using indexer to set value
+//obj[4]= 20;
+//Console.WriteLine("Value at index 4: " + (string.Join(',', obj[4])));// Using indexer to get value
+//obj.DisplayArray();
+
+Student stud = new Student(new College()); // Constructor Injection
+stud.school = new School(); // Property Injection
+stud.Study(new Class()); // Method Injection
 

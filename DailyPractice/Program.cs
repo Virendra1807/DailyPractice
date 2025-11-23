@@ -146,6 +146,8 @@ using System.Collections.Generic;
 //Console.WriteLine("Value at index 4: " + (string.Join(',', obj[4])));// Using indexer to get value
 //obj.DisplayArray();
 
+//Interfaces are mainly used for swap the classes as DateOnly one type used in method 
+
 Student stud = new Student(new College()); // Constructor Injection
 stud.school = new School(); // Property Injection
 stud.Study(new Class()); // Method Injection

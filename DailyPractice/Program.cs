@@ -148,7 +148,12 @@ using System.Collections.Generic;
 
 //Interfaces are mainly used for swap the classes as DateOnly one type used in method 
 
-Student stud = new Student(new College()); // Constructor Injection
-stud.school = new School(); // Property Injection
-stud.Study(new Class()); // Method Injection
+//Student stud = new Student(new College()); // Constructor Injection
+//stud.school = new School(); // Property Injection
+//stud.Study(new Class()); // Method Injection
+
+
+SingletoDesingPattern SingleObjForWholeApp= SingletoDesingPattern.GetInstance();
+
+SingleObjForWholeApp.ShowMsg();
 

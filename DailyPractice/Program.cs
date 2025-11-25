@@ -157,7 +157,6 @@ using System.Collections.Generic;
 
 //SingleObjForWholeApp.ShowMsg();
 
-NotificationFactory dynamixNotification = new NotificationFactory();
 NotificationFactory.CreateNotification("SMS")?.send();
 NotificationFactory.CreateNotification("Email")?.send();
 NotificationFactory.CreateNotification("Nothing")?.send(); // null check with ?.

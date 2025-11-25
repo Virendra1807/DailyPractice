@@ -153,7 +153,11 @@ using System.Collections.Generic;
 //stud.Study(new Class()); // Method Injection
 
 
-SingletoDesingPattern SingleObjForWholeApp= SingletoDesingPattern.GetInstance();
+//SingletoDesingPattern SingleObjForWholeApp= SingletoDesingPattern.GetInstance();
 
-SingleObjForWholeApp.ShowMsg();
+//SingleObjForWholeApp.ShowMsg();
 
+NotificationFactory dynamixNotification = new NotificationFactory();
+NotificationFactory.CreateNotification("SMS")?.send();
+NotificationFactory.CreateNotification("Email")?.send();
+NotificationFactory.CreateNotification("Nothing")?.send(); // null check with ?.

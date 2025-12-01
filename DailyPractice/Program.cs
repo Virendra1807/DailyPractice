@@ -158,8 +158,34 @@ using System.Collections.Generic;
 //SingleObjForWholeApp.ShowMsg();
 
 //NotificationFactory.CreateNotification("SMS")?.send();
-NotificationFactory.CreateNotification("Email")?.send();
-NotificationFactory.CreateNotification("Nothing")?.send(); // null check with ?.
+//NotificationFactory.CreateNotification("Email")?.send();
+//NotificationFactory.CreateNotification("Nothing")?.send(); // null check with ?.
+
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        using IHost host = Host.CreateDefaultBuilder()
+            .ConfigureServices((context, services) =>
+            {
+                services.AddScoped<IMessageService, MessageService>();
+                services.AddScoped<INoteService, NoteService>();
+                services.AddScoped<UseDependencyInjection>();   // Your main app class
+            })
+            .Build();
+
+        // Run main application with DI
+        var app = host.Services.GetRequiredService<UseDependencyInjection>();
+        app.CallMethodUsingDependencyInjection();
+
+      
+    }
+}
+
 
 
 

@@ -19,7 +19,19 @@ namespace DailyPractice
         }
     }
 
+    public interface INoteService
+    {
+        string GetMessage();
+    }
 
-   
+    public class NoteService : INoteService
+    {
+        public string GetMessage()
+        {
+            return "Hello from NoteService!";
+        }
+    }
+
+
 
 }
